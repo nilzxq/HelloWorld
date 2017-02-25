@@ -3,7 +3,7 @@
  "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
    "http://struts.apache.org/dtds/struts-2.5.dtd">
 <struts>
-<package name="default" namespace="/" extends="structs-default">
+<package name="default" namespace="/" extends="struts-default">
 <action name="helloworld" class="com.imooc.action.HelloWorldAction">
 <result>/result.jsp</result>
 <result name="add">/add.jsp</result>
@@ -17,5 +17,5 @@
 <result>/add.jsp</result>
 </action>-->
 </package>
-<constant name="structs.enable.DynamicMethodInvocation" value="true"></constant>
+<constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
 </struts>
