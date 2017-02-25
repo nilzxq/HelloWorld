@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xml-body>
-
-</xml-body>
+ <!DOCTYPE struts PUBLIC
+ "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+   "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+<package name="default" namespace="/" extends="structs-default">
+<action name="helloworld" class="com.imooc.action.HelloWorldAction">
+<result>/result.jsp</result>
+</action>
+<action name="addAction" method="add" class=com.imooc.action.HelloWorldAction"></action>
+</package>
+</struts>
