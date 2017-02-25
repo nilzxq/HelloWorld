@@ -6,12 +6,16 @@
 <package name="default" namespace="/" extends="structs-default">
 <action name="helloworld" class="com.imooc.action.HelloWorldAction">
 <result>/result.jsp</result>
+<result name="add">/add.jsp</result>
+<result name="update">/update.jsp</result>
 </action>
-<action name="addAction" method="add" class="com.imooc.action.HelloWorldAction">
+<!-- method方法 -->
+<!--<action name="addAction" method="add" class="com.imooc.action.HelloWorldAction">
 <result>/add.jsp</result>
 </action>
 <action name="updateAction" method="update" class="com.imooc.action.HelloWorldAction">
 <result>/add.jsp</result>
-</action>
+</action>-->
 </package>
+<constant name="structs.enable.DynamicMethodInvocation" value="true"></constant>
 </struts>

@@ -8,10 +8,10 @@ import com.opensymphony.xwork2.ActionSupport;
 public class HelloWorldAction extends ActionSupport{
 	private HttpServletRequest request;
 	public String add(){
-		return SUCCESS;
+		return "add";
 	}
 	public String update(){
-		return SUCCESS;
+		return "update";
 	}
 	@Override
 	public String execute() throws Exception {
