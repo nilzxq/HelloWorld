@@ -5,6 +5,8 @@
 <struts>
 <include file="helloworld.xml"></include>
 
+<constant name="structs.action.extension" value=""></constant>
+
 <constant name="struts.enable.DynamicMethodInvocation" value="false"></constant>
 
 </struts>

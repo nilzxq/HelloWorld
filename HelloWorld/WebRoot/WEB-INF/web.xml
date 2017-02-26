@@ -4,6 +4,10 @@
   <filter>
  <filter-name>structs2</filter-name>
 <filter-class>org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter</filter-class>
+<!-- <init-param>
+<param-name>structs.action.extension</param-name>
+<param-value>do</param-value>
+</init-param>-->
 </filter>
 <filter-mapping>
  <filter-name>structs2</filter-name>
